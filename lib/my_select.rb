@@ -5,7 +5,6 @@ def my_select(collection)
  while i < collection.length
    if yeild(collection[i])
      selection << collection[i]
-
    end
    i += 1
  end
